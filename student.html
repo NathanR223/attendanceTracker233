@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css">
     <title>Student</title>
 </head>
-asdf
 <body>
 
     <section class="top-nav">
@@ -19,6 +18,7 @@ asdf
             <div class='menu-button'></div>
         </label>
         <ul class="menu">
+            <li><a href="index.html">Home</a></li>
             <li><a href="class.html">Class Maintenance</a></li>
             <li><a href="student.html">Student Maintenance</a></li>
             <li><a href="attendance.html">Attendance Taker</a></li>
@@ -30,7 +30,7 @@ asdf
         <div id="itemWrapper">
             <table>
                 <tr>
-                    <td>
+                    <td style="width: 50%;">
                         <select style="width:100%">
                             <option selected>Year</option>
                             <option>2023</option>
@@ -39,7 +39,7 @@ asdf
                         </select>
                     </td>
                     <td>
-                        <select style="width:100%">
+                        <select style="width:100%;">
                             <option selected>Semester</option>
                             <option>Spring</option>
                             <option>Summer A</option>
@@ -59,7 +59,7 @@ asdf
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <select multiple style="width:100%">
+                        <select multiple style="width:100%; height:50vh">
                             <option>Aardvark, Arvin</option>
                             <option>Bubmblebee, Barbara</option>
                             <option>Camel, Camille</option>
@@ -93,24 +93,29 @@ asdf
                     <td>
                         <input 
                             type="text" 
-                            placeholder=" MEID"
-                            style="width:85px;"
-                        >
-                        <input 
-                            type="text" 
                             placeholder=" First Name"
-                            style="width:85px;"
+                            style="width:100%;"
                         >
+                    </td>
+                    <td>
                         <input 
                             type="text" 
                             placeholder=" Last Name"
-                            style="width: 85px;"
+                            style="width:100%;"
                         >
-                    </td>   
-               
-                    <td style="text-align: right;">
-                        <button>Delete</button>
-                        <button>Add</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input 
+                            type="text" 
+                            placeholder=" MEID"
+                            style="width:100%;"
+                        >
+                        <td style="text-align: right;">
+                            <button>Delete</button>
+                            <button>Add</button>
+                        </td>
                     </td>
                 </tr>
             </table>
